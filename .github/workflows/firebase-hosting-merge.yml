@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_KANTINESIDE }}
           channelId: live
           projectId: kantineside
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
